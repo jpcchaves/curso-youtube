@@ -10,6 +10,7 @@ spring:
 ```
 
 ### application-dev.yml
+```
 spring:
   config:
     import: optional:file:.env[.properties]
@@ -26,8 +27,9 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         show_sql: true
         format_sql: true
-
+```
 ### application-prod.yml
+```
 spring:
   datasource:
     url:
@@ -42,3 +44,4 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         show_sql: true
         format_sql: true
+```
