@@ -46,8 +46,6 @@ spring:
         format_sql: true
 ```
 
-﻿# Todo List
-
 ## Implementando DTO com ModelMapper
 
 ### Dependência do ModelMapper
